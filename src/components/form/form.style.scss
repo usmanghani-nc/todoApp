@@ -1,0 +1,31 @@
+form {
+  .form-group {
+    display: flex;
+    justify-content: center;
+    height: 40px;
+
+    input {
+      border: none;
+      outline: none;
+      height: 100%;
+      padding-left: 10px;
+    }
+
+    button {
+      border: none;
+      height: 100%;
+      width: 40px;
+      cursor: pointer;
+      outline: none;
+      background: #fff;
+      .icon-edit,
+      .icon-add {
+        font-size: 2rem;
+        transition: 0.23s ease;
+        &:hover {
+          color: #374155;
+        }
+      }
+    }
+  }
+}
